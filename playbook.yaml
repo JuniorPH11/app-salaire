@@ -1,0 +1,23 @@
+---
+
+- hosts: 192.168.58.135
+
+  tasks:
+   - name: Installation du serveur Apapche et PHP
+     yum:
+      name: "{{ item }}"
+      state: present
+     loop:
+       - httpd 
+       - php
+
+
+   - name: Arret du service nginx
+     systemd:
+      name: nginx
+      state: stopped
+
+   - name: Démmarage du serveur apache
+     systemd:
+      name: httpd
+      state: started
