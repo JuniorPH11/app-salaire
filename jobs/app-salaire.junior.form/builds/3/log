@@ -1,0 +1,20 @@
+Started by user [8mha:////4ETJMovahHBKFce0WDmA4oYmWy9KpXjsWC8PPb9/FW5mAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgYe/dLi1CL9rNK8zPwiANJp81nBAAAA[0mJuniorph
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/app-salaire.junior.form
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/app-salaire.junior.form/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/JuniorPH11/app-salaire.git # timeout=10
+Fetching upstream changes from https://github.com/JuniorPH11/app-salaire.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/JuniorPH11/app-salaire.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 2b9fcb81580e763b6feaf559df775fa10874e4e3 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2b9fcb81580e763b6feaf559df775fa10874e4e3 # timeout=10
+Commit message: "install apache-php"
+ > git rev-list --no-walk 2b9fcb81580e763b6feaf559df775fa10874e4e3 # timeout=10
+[app-salaire.junior.form] $ /bin/sh -xe /tmp/jenkins4466602829016848870.sh
+Finished: SUCCESS
